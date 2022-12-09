@@ -5,117 +5,279 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/figma/styles/reset.css" />
+    <link rel="stylesheet" href="/figma/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6c466c3084.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header wrapper">
       <nav class="header-menu">
-        <ul>
-          <li class="header-item-1">Home</li>
-          <li class="header-item-2">About me</li>
-          <li class="header-item-3">Skills</li>
-          <li class="header-item-4">Portfolio</li>
-          <li class="header-item-5">Contacts</li>
+        <ul class="list">
+          <li class="list-item"><a href="#"></a> Home</li>
+          <li class="list-item"><a href="#"></a> About me</li>
+          <li class="list-item"><a href="#"></a> Skills</li>
+          <li class="list-item"><a href="#"></a> Portfolio</li>
+          <li class="list-item"><a href="#"></a> Contacts</li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <h1>Denis Novikov</h1>
-        <img src="images\photox940.png" alt="Denis Novikov" />
+    <main class="">
+      <section class="photo">
+        <h1 class="photo-title">Denis Novik</h1>
+        <img src="images\photox940.png" alt="Denis Novikov" class="image-1" />
       </section>
-      <section>
-        <h2>About me</h2>
-        <p>
-          Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
-          and everything connected with it.
-        </p>
-        <p>
-          I'm studying at courses "Web and mobile design interfaces" in
-          IT-Academy.
-        </p>
-        <p>Ready to implement excellent projects with wonderful people.</p>
+      <section class="about">
+        <div class="wrapper wrapper-about">
+          <h2 class="about-header">About me</h2>
+          <p class="about-text">
+            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+            and everything connected with it.
+          </p>
+          <p class="about-text">
+            I'm studying at courses "Web and mobile design interfaces" in
+            IT-Academy.
+          </p>
+          <p class="about-text">
+            Ready to implement excellent projects with wonderful people.
+          </p>
+        </div>
       </section>
-      <section>
-        <h3>Skills</h3>
-        <p>I work in such programs</p>
-      </section>
-      <section>
-        <ul>
-          <li>
-            <img src="images\Ps.png" alt="PS" />
-            <p>Adobe Photoshop</p>
-            <div>
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\Vector.png" alt="" />
-              <img src="images\Vector.png" alt="" />
-              <img src="images\Vector.png" alt="" />
-            </div>
-          </li>
+      <section class="skills">
+        <div class="wrapper wrapper-skills">
+          <h3 class="skills-title">Skills</h3>
+          <p class="skills-text">I work in such programs as</p>
 
-          <li>
-            <img src="images\Ai.png" alt="AI" />
-            <p>Adobe Ilustator</p>
-            <div>
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\Vector.png" alt="" />
-              <img src="images\Vector.png" alt="" />
-            </div>
-          </li>
-          <li>
-            <img src="images\Ae.png" alt="AE" />
-            <p>Adobe After Effects</p>
-            <div>
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\Vector.png" alt="" />
-            </div>
-          </li>
-          <li>
-            <img src="images\Figma.png" alt="" />
-            <p>Figma</p>
-            <div>
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-              <img src="images\star-icon.png" alt="" />
-            </div>
-          </li>
-        </ul>
+          <ul class="product-list">
+            <li class="product-item">
+              <img src="images\Ps.png" alt="PS" />
+              <p class="product-text">Adobe Photoshop</p>
+              <div class="rating-wrapper">
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img src="images\Ai.png" alt="AI" />
+              <p class="product-text">Adobe Ilustator</p>
+              <div class="rating-wrapper">
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="images\Ae.png" alt="AE" />
+              <p class="product-text">Adobe After Effects</p>
+              <div class="rating-wrapper">
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="images\Figma.png" alt="Figma" />
+              <p class="product-text">Figma</p>
+              <div class="rating-wrapper">
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+                <img
+                  src="/figma/images/star-regular.svg"
+                  alt=""
+                  class="star-icon"
+                  width="24px"
+                  height="24px"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Portfolio</h2>
-        <img src="images\Fashion-Store.png" alt="FashionStore" />
-        <p>Online fashion store - Homepage</p>
-      </section>
-      <section>
-        <img src="images\reebok_web.png" alt="Reebok" />
-        <p>Reebok Store - Concept</p>
-      </section>
-      <section>
-        <img src="images\braun-landing.png" alt="" />
-        <p>Braun Landing Page - concept</p>
-      </section>
-      <section>
-        <h2>Contacts</h2>
-        <p>Want to know more or just chat? You are welcome!</p>
-        <button>Send message</button>
-        <ul>
-          <li>
-            <a href="#"><img src="images\instagram.png" alt="Instagram" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="images\Vector (5).png" alt="Dribble" /></a>
-          </li>
-        </ul>
-        <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
+      <section class="portfolio">
+        <div class="wrapper wrapper-portfolio">
+          <h2 class="portfolio-text">Portfolio</h2>
+          <img
+            src="images\Fashion-Store.png"
+            alt="FashionStore"
+            class="image-portfolio"
+          />
+          <p class="text-image-portfolio">Online fashion store - Homepage</p>
+          <img
+            src="images\reebok_web.png"
+            alt="Reebok"
+            class="image-portfolio"
+          />
+          <p class="text-image-portfolio">Reebok Store - Concept</p>
+          <img src="images\braun-landing.png" alt="" class="image-portfolio" />
+          <p class="text-image-portfolio">Braun Landing Page - concept</p>
+        </div>
       </section>
     </main>
+    <footer class="footer">
+      <section class="contacts">
+        <div class="wrapper contacts-wrapper">
+          <h2 class="heading-contacts">Contacts</h2>
+          <p class="contacts-text">
+            Want to know more or just chat? You are welcome!
+          </p>
+        </div>
+        <div class="links wrapper">
+          <span class="socialmedia">
+            <button class="btn">Send message</button></span
+          >
+          <ul class="social-group">
+            <li>
+              <a href="#"
+                ><img src="/figma/images/linkedin.png" alt="LinkedIn"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="/figma/images/instagram.png" alt="instagram"
+              /></a>
+            </li>
+
+            <li>
+              <a href="#"
+                ><img src="/figma/images/behance.png" alt="Behance"
+              /></a>
+            </li>
+
+            <li>
+              <a href="#"><img src="images\Vector (5).png" alt="Dribble" /></a>
+            </li>
+          </ul>
+          <p class="links-text">
+            Like me on LinkedIn, Instagram, Behance, Dribble
+          </p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
