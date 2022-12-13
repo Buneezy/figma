@@ -159,9 +159,7 @@ body {
   line-height: 25px;
   text-align: center;
   text-decoration-line: underline;
-
   width: 200px;
-
   color: #070707;
 }
 .contacts-wrapper {
@@ -214,7 +212,6 @@ body {
   line-height: 25px;
   text-align: center;
   letter-spacing: 0.1em;
-
   color: #ffffff;
 }
 .social-group {
@@ -233,7 +230,6 @@ body {
   font-size: 14px;
   line-height: 19px;
   text-align: center;
-
   color: #828282;
 }
 .list-item:first-of-type {
@@ -242,9 +238,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-
   letter-spacing: 0.02em;
-
   color: #070707;
 }
 .list-item:nth-of-type(n + 2) {
@@ -254,6 +248,5 @@ body {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.02em;
-
   color: #828282;
 }
